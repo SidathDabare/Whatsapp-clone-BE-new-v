@@ -1,0 +1,49 @@
+{
+  "name": "whatsapp-clone-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonKovacsp22/Whatsapp-clone-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonKovacsp22/Whatsapp-clone-BE/issues"
+  },
+  "homepage": "https://github.com/SimonKovacsp22/Whatsapp-clone-BE#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/express-list-endpoints": "^6.0.0",
+    "@types/http-errors": "^1.8.2",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/multer": "^1.4.7",
+    "@types/nodemon": "^1.19.2",
+    "atob": "^2.1.2",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-list-endpoints": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
